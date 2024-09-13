@@ -10,6 +10,9 @@ server.use(jsonServer.bodyParser);
 server.use(middlewares);
 server.use(router);
 
+
+router.get("/test", () => console.log("TEST"))
+
 const PORT = process.env.PORT || 3000;
 
 server.listen(PORT, () => {

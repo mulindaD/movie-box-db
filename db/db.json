@@ -1,6 +1,10 @@
 {
-  "users": [],
-  "users/signup": [],
+  "users": [
+    {
+      "username": "domm",
+      "password": "mulinda"
+    }
+  ],
   "reviews": [],
   "wishlist": []
 }
